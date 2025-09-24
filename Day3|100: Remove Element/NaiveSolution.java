@@ -1,4 +1,4 @@
-class Solution {
+class NaiveSolution {
     public int removeElement(int[] nums, int val) {
         int length =  nums.length;
         for(int i=0; i < length; i++){
