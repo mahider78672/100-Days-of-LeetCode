@@ -1,0 +1,18 @@
+Day 21 – Problem: Binary Tree Inorder Traversal
+
+Problem Statement:
+Return the inorder traversal of a binary tree's nodes.
+
+Solution Approach:
+
+Recursive: Simple and clean, leverages call stack.
+
+Iterative: Uses explicit stack to manage traversal.
+
+Complexity:
+
+Time: O(n)
+
+Space: O(n)
+
+Language: Java ☕
