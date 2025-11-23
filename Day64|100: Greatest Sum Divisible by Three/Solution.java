@@ -8,8 +8,7 @@ class Solution {
                 int newRemainder = (temp[i] + num) % 3;
                 dp[newRemainder] = Math.max(dp[newRemainder], temp[i] + num);
             }
-        }
-        
+        }        
         return dp[0];
     }
 }
