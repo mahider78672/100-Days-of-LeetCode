@@ -1,0 +1,20 @@
+✅ Day 77 – Problem: Convert a Number to Hexadecimal
+Problem
+
+Convert an integer into its hexadecimal representation without using built-in conversion methods.
+
+Approach
+
+Use bitwise AND (& 15) to extract hex digits
+
+Map values 0–15 to corresponding hex characters
+
+Use unsigned right shift to handle negative numbers
+
+Reverse the final string for correct order
+
+Complexity
+Aspect	Value
+Time	O(1)
+Space	O(1)
+Language	Java ☕
