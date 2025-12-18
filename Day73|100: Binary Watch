@@ -1,0 +1,26 @@
+✅ Day 73 – Problem: Binary Watch (LeetCode 401)
+Problem
+
+Given the number of LEDs that are turned on, generate all possible valid times on a binary watch.
+
+Approach
+
+Iterate over all possible hours (0–11) and minutes (0–59)
+
+Count set bits in both numbers
+
+If total set bits == turnedOn, add formatted time to result
+
+Ensure:
+
+Hour ≤ 11
+
+Minute ≤ 59
+
+Minute has leading zero if needed
+
+Complexity
+Aspect	Value
+Time	O(1)
+Space	O(1)
+Language	Java ☕
