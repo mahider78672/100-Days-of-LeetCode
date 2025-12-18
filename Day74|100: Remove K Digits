@@ -1,0 +1,22 @@
+✅ Day 74 – Problem: Remove K Digits
+Problem
+
+Given a numeric string and integer k, remove exactly k digits to form the smallest possible number.
+
+Approach
+
+Traverse digits and maintain a monotonic increasing stack
+
+Remove previous digits if they are larger than current and k > 0
+
+If removals remain, delete from the end
+
+Strip leading zeros
+
+Return "0" if result is empty
+
+Complexity
+Aspect	Value
+Time	O(N)
+Space	O(N)
+Language	Java ☕
