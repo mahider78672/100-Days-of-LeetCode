@@ -1,0 +1,22 @@
+✅ Day 76 – Problem: Sum of Left Leaves
+Problem
+
+Given a binary tree, compute the sum of values of all left leaf nodes.
+
+Approach
+
+Traverse the tree using DFS
+
+At each node:
+
+Check if left child exists and is a leaf
+
+Add its value to the result
+
+Continue traversal for both left and right subtrees
+
+Complexity
+Aspect	Value
+Time	O(N)
+Space	O(H)
+Language	Java ☕
