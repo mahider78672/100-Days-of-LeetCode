@@ -1,0 +1,24 @@
+✅ Day 75 – Problem: Frog Jump
+Problem
+
+Given stone positions in a river, determine if a frog can reach the last stone following constrained jump rules.
+
+Approach
+
+Use a HashMap<Stone, Set<JumpSizes>>
+
+Initialize position 0 with jump size 0
+
+For each stone and jump size:
+
+Try k-1, k, k+1 (greater than 0)
+
+If next stone exists, add jump size to its set
+
+Check if the last stone has any valid jump
+
+Complexity
+Aspect	Value
+Time	O(N²)
+Space	O(N²)
+Language	Java ☕
