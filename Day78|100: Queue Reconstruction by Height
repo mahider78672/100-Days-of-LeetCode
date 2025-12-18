@@ -1,0 +1,18 @@
+✅ Day 78 – Problem: Queue Reconstruction by Height
+Problem
+
+Reconstruct a queue such that each person [h, k] has exactly k people of height ≥ h standing in front.
+
+Approach
+
+Sort people by descending height and ascending k
+
+Use a list to insert each person at position k
+
+Taller people are unaffected by shorter ones placed later
+
+Complexity
+Aspect	Value
+Time	O(N²)
+Space	O(N)
+Language	Java ☕
