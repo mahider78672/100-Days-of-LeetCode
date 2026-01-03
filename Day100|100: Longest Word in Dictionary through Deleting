@@ -1,0 +1,20 @@
+✅ Day 100 – Problem: Longest Word in Dictionary through Deleting
+
+Problem:
+Find the longest word from a dictionary that can be formed by deleting letters from a given string. Return lexicographically smallest in case of tie.
+
+Approach:
+
+Two-pointer subsequence check for each word
+
+Track the longest valid word and apply lexicographical tie-break
+
+Complexity:
+
+Time: O(N × L)
+
+Space: O(1)
+
+Language: Java ☕
+
+🎉 Milestone: Completed 100 Days of Code!
