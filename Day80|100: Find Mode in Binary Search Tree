@@ -1,0 +1,20 @@
+Day 80 – Problem: Find Mode in Binary Search Tree
+Problem
+
+Return all values that appear most frequently in a Binary Search Tree.
+
+Approach
+
+Perform inorder traversal to get sorted values
+
+Track previous value and its frequency
+
+Maintain maximum frequency seen so far
+
+Collect values matching the maximum frequency
+
+Complexity
+Aspect	Value
+Time	O(N)
+Space	O(H)
+Language	Java ☕
