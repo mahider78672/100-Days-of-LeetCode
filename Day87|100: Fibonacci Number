@@ -1,0 +1,18 @@
+Day 87 – Problem: Fibonacci Number
+
+Problem:
+Return the nth Fibonacci number based on the classic recurrence relation.
+
+Approach:
+
+Use an iterative DP solution
+
+Store only previous two Fibonacci values for space optimization
+
+Complexity:
+
+Time: O(N)
+
+Space: O(1)
+
+Language: Java ☕
