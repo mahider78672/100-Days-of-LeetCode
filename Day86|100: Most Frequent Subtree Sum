@@ -1,0 +1,20 @@
+Day 86 – Problem: Most Frequent Subtree Sum
+Problem
+
+Compute the sum of every subtree in a binary tree and return the sum value(s) that appear most frequently.
+
+Approach
+
+Traverse the tree using postorder DFS
+
+Calculate subtree sum at each node
+
+Store frequencies using a hashmap
+
+Identify and return sums with highest occurrence
+
+Complexity
+Aspect	Value
+Time	O(N)
+Space	O(N)
+Language	Java ☕
