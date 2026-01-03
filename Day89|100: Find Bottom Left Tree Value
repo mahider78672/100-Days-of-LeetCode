@@ -1,0 +1,20 @@
+Day 89 – Problem: Find Bottom Left Tree Value
+
+Problem:
+Return the leftmost value in the last row of a binary tree.
+
+Approach:
+
+Perform level-order traversal (BFS)
+
+Capture the first node value at each level
+
+Update the answer as levels progress
+
+Complexity:
+
+Time: O(N)
+
+Space: O(N)
+
+Language: Java ☕
