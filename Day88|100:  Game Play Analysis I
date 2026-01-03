@@ -1,0 +1,18 @@
+Day 88 – Problem: Game Play Analysis I
+
+Problem:
+Find the first login date (event_date) for each player from the Activity table.
+
+Approach:
+
+Group data by player_id
+
+Use MIN(event_date) to retrieve the earliest login per player
+
+Complexity:
+
+Time: O(N)
+
+Space: O(1)
+
+Language: SQL 🗄️
