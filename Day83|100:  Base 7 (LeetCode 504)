@@ -1,0 +1,32 @@
+Day 83/100 – #100DaysOfCode 🚀 | #Java #Math #NumberSystems
+
+✅ Problem Solved: Base 7 (LeetCode 504)
+
+🧩 Problem Summary
+Given an integer num, convert it to its base 7 representation as a string.
+
+Handle both positive and negative numbers
+
+Do not use built-in base conversion utilities
+
+💡 Approach Used
+✔ Handle edge case: if num == 0 → return "0"
+✔ Track sign for negative numbers
+✔ Repeatedly:
+
+Take remainder num % 7
+
+Append it to result
+
+Divide num by 7
+
+✔ Reverse the constructed string
+✔ Add - sign back if needed
+
+⚙ Time Complexity: O(log₇ N)
+📦 Space Complexity: O(log₇ N)
+
+✨ Takeaway
+Understanding number systems and manual base conversion strengthens fundamentals and helps avoid over-reliance on libraries.
+
+#Java #LeetCode #Math #NumberSystems #100DaysOfCode #CodingChallenge
