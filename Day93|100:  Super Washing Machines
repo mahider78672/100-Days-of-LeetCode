@@ -1,0 +1,20 @@
+Day 93 – Problem: Super Washing Machines
+
+Problem:
+Determine the minimum number of moves required to balance dresses across washing machines.
+
+Approach:
+
+Check feasibility using total sum
+
+Track cumulative imbalance while traversing
+
+Answer is the maximum imbalance observed
+
+Complexity:
+
+Time: O(N)
+
+Space: O(1)
+
+Language: Java ☕
