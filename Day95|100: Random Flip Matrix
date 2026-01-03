@@ -1,0 +1,18 @@
+Problem:
+Randomly flip zero-valued cells to one without repetition until reset.
+
+Approach:
+
+Flatten matrix to 1D
+
+Use HashMap to track swapped indices
+
+Randomly select from remaining range
+
+Complexity:
+
+Time: O(1) per flip
+
+Space: O(K)
+
+Language: Java ☕
