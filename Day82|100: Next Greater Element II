@@ -1,0 +1,20 @@
+Day 82 – Problem: Next Greater Element II
+Problem
+
+Given a circular array, find the next greater element for each index.
+
+Approach
+
+Initialize result array with -1
+
+Use a monotonic stack to track decreasing elements
+
+Traverse array twice to simulate circular nature
+
+Update results when a greater element is found
+
+Complexity
+Aspect	Value
+Time	O(N)
+Space	O(N)
+Language	Java ☕
