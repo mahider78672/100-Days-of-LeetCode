@@ -1,0 +1,18 @@
+Day 85 – Problem: Perfect Number
+Problem
+
+Determine whether a given number is a perfect number by checking if the sum of its proper divisors equals the number itself.
+
+Approach
+
+Handle edge cases (num <= 1)
+
+Sum divisor pairs up to √num
+
+Compare total divisor sum with original number
+
+Complexity
+Aspect	Value
+Time	O(√N)
+Space	O(1)
+Language	Java ☕
