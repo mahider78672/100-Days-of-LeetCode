@@ -1,0 +1,20 @@
+✅ Day 98 – Problem: Longest Uncommon Subsequence II
+
+Problem:
+Find the longest string that is not a subsequence of any other string in the array.
+
+Approach:
+
+Sort strings by descending length
+
+Check each string against all others using two pointers
+
+Return first valid uncommon subsequence
+
+Complexity:
+
+Time: O(N² × L)
+
+Space: O(1)
+
+Language: Java ☕
