@@ -1,0 +1,18 @@
+✅ Day 97 – Problem: Longest Uncommon Subsequence I
+
+Problem:
+Find the longest subsequence that exists in one string but not in the other.
+
+Approach:
+
+If strings are equal → return -1
+
+Otherwise → return length of the longer string
+
+Complexity:
+
+Time: O(1)
+
+Space: O(1)
+
+Language: Java ☕
