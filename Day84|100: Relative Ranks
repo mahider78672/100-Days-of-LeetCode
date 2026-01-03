@@ -1,0 +1,20 @@
+Day 84 – Problem: Relative Ranks
+Problem
+
+Assign rankings to athletes based on their scores while preserving original order.
+
+Approach
+
+Store (score, index) pairs
+
+Sort by score descending
+
+Assign medals or rank numbers
+
+Map results back to original indices
+
+Complexity
+Aspect	Value
+Time	O(N log N)
+Space	O(N)
+Language	Java ☕
