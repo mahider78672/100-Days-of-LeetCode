@@ -1,0 +1,22 @@
+Day 90 – Problem: Freedom Trail
+
+Problem:
+Find the minimum steps required to spell a given key using a circular ring.
+
+Approach:
+
+Use DFS with memoization
+
+State = (ring position, key index)
+
+Try all matching characters and compute minimum rotation cost
+
+Add button press cost for each character
+
+Complexity:
+
+Time: O(R × K)
+
+Space: O(R × K)
+
+Language: Java ☕
