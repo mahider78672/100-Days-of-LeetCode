@@ -1,0 +1,20 @@
+✅ Day 99 – Problem: Continuous Subarray Sum
+
+Problem:
+Check if there exists a subarray of length ≥ 2 whose sum is divisible by k.
+
+Approach:
+
+Use prefix sums with modulo k
+
+Store earliest index for each remainder
+
+Validate subarray length condition
+
+Complexity:
+
+Time: O(N)
+
+Space: O(K)
+
+Language: Java ☕
