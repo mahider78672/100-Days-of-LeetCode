@@ -1,0 +1,20 @@
+Day 94 – Problem: Coin Change II
+
+Problem:
+Count the number of combinations to form a target amount using unlimited coins.
+
+Approach:
+
+Use a 1D DP array
+
+Loop coins first, then amounts
+
+Update combinations incrementally
+
+Complexity:
+
+Time: O(N × amount)
+
+Space: O(amount)
+
+Language: Java ☕
