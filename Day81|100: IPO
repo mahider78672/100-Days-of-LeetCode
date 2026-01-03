@@ -1,0 +1,20 @@
+Day 81 – Problem: IPO (LeetCode 502)
+Problem
+
+Given initial capital and multiple projects with capital requirements and profits, select up to k projects to maximize final capital.
+
+Approach
+
+Pair capital & profit for each project
+
+Sort projects by required capital
+
+Push affordable projects into a max-heap based on profit
+
+Repeatedly pick the most profitable available project
+
+Complexity
+Aspect	Value
+Time	O(N log N)
+Space	O(N)
+Language	Java ☕
