@@ -1,0 +1,18 @@
+✅ Day 96 – Problem: Detect Capital
+
+Problem:
+Check whether a word follows correct capitalization rules.
+
+Approach:
+
+Traverse characters and track capitalization
+
+Validate against allowed patterns
+
+Complexity:
+
+Time: O(N)
+
+Space: O(1)
+
+Language: Java ☕
