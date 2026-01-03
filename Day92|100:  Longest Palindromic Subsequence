@@ -1,0 +1,20 @@
+✅ Day 92 – Problem: Longest Palindromic Subsequence
+
+Problem:
+Find the length of the longest subsequence of a string that forms a palindrome.
+
+Approach:
+
+Use a 2D DP table
+
+dp[i][j] represents LPS length in substring i to j
+
+Build solution bottom-up
+
+Complexity:
+
+Time: O(N²)
+
+Space: O(N²)
+
+Language: Java ☕
